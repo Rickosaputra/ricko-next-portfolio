@@ -9,7 +9,10 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-      <main className="mx-auto max-w-5xl container-pad">
+       <main className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+  {/* HERO */}
+  <section className="grid gap-8 md:grid-cols-2 md:items-center">
+    {/* Text */}
         <p className="text-sm">Freelance Web Developer</p>
         <h1 className="mt-1 text-3xl font-extrabold">
           Hi, I’m Ricko Saputra
@@ -39,6 +42,7 @@ export default function HomePage() {
             priority
           />
         </div>
+      </section>
       </main>
       <Footer />
     </>
