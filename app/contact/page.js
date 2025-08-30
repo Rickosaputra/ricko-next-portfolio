@@ -24,7 +24,7 @@ export default function ContactPage() {
           <input type="text" name="_honey" style={{ display: "none" }} />
           <input type="hidden" name="_captcha" value="false" />
           {/* ganti setelah deploy */}
-          <input type="hidden" name="_next" value="https://ricko-next-portfolio.vercel.app/thank-you" />
+          <input type="hidden" name="_next" value="https://landing-page-sand-rho-57.vercel.app/thank-you" />
 
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
