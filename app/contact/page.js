@@ -28,9 +28,7 @@ export default function ContactPage(){
         </div>
 
         <form 
-           className="rounded-3xl border bg-white p-6 shadow-soft dark:bg-slate-900 dark:border-slate-800" action="https://formsubmit.co/funrki5@gmail.com" method="POST"
-           action="https://formsubmit.co/funrki5@gmail.com"
-           method="POST">
+           className="rounded-3xl border bg-white p-6 shadow-soft dark:bg-slate-900 dark:border-slate-800" action="https://formsubmit.co/funrki5@gmail.com" method="POST">
           <input type="hidden" name="_subject" value="New Project Inquiry — Ricko Saputra"/>
           <input type="hidden" name="_template" value="table"/>
           <input type="hidden" name="_captcha" value="false"/>
